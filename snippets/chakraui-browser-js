@@ -1,0 +1,10 @@
+import { ChakraProvider, CSSReset } from "@chakra-ui/react"
+import customTheme from "./src/themes/theme"
+export const wrapRootElement = ({ element }) => {
+  return (
+    <ChakraProvider theme={customTheme}>
+      <CSSReset />
+      {element}
+    </ChakraProvider>
+  )
+}
