@@ -1,11 +1,6 @@
-import * as React from "react"
+import React from 'react';
+import ChakrauiButtonThemetoggle from '@bit/datafaced.private.chakraui-button-themetoggle';
 
-import Toggle from '@components/toggle-theme'
-
-const TestPageChakraui = () => {
-  return (
-    <Toggle />
-  )
-}
-
-export default TestPageChakraui
+export default (
+	<ChakrauiButtonThemetoggle/>
+)
