@@ -1,6 +1,10 @@
 import React from 'react';
 import ChakrauiButtonThemetoggle from '@bit/datafaced.private.chakraui-button-themetoggle';
 
-export default (
-	<ChakrauiButtonThemetoggle/>
-)
+export default TestPage() {
+	return (
+		<>
+			<ChakrauiButtonThemetoggle/>
+		</>
+	)
+}
